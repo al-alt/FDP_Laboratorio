@@ -1,0 +1,26 @@
+PROBLEMA 1. Dado un precio calcular su descuento  considerando que si el precio es mayor a 100 el descuento sera de 10%, de otro modo descontar solo un 2%
+1. Preguntar el precio del producto
+2. Si el precio es menor a cero regresar al punto 1.
+3. Si el valor del producto es mayoa a 100 se valida la siguiente condicion:
+ 3.1 Multiplicar el valor de la mercancia por 0.10 y restarlo al valor inicial de la mercancia.
+4. Si el valor de la mercancia es menor a 100 se valida la sigiente condicion:
+  4.1  Multiplicar el valor de la mercancia por 0.02 y restarlo al valor inicial de la mercancia.
+  
+PROBLEMA 2. Un algoritmo que lea dos números y calcule: suma, resta,  multiplicación, division. 
+1. Preguntar los dos numeros inicilaes.
+2. Si alguno de los valores es igual a cero regresar al punto 1.
+3. Si el valor de ambos numeros es mayo a 0 se cumplen las siguientes condiciones:
+ 3.1 Sumar el valor1 mas el valor2
+ 3.2 Restar el valor1 menos el valor2
+ 3.3 Multiplicar el valor1 por el valor2
+ 3.4 Dividir el valor1 entre el valor2
+ 
+ PROBLEMA 3.Leer tres numeros que van a demostar una fecha de día, mes y año, y verificar si es una fecha valida.
+ 1. Ingresrar tres intevarlos de numeros correpondientes a una fecha(DD/MM/AAAA)
+ 2. Si todos los tres intervalos son igual a cero ,regresar al punto 1.
+ 3. SI son mayores a cero, se cumplen ,las siguientes condiciones:
+  3.1 Dia(DD)es menor=30 en meses (MM)04,06,09,11.
+  3.2 Dia(DD)es menor= 31 en meses(MM)01,03,05,07,08,10,12.
+  3.3 Dia (DD) es menor igaul a 28 en mes (MM)02.
+  3.4 Dia (DD) es igual a 29 con las siguiente condicion:
+   3.4.1 Mes (MM)02 y año(AAAA)en ((año/4)residuo=0)
